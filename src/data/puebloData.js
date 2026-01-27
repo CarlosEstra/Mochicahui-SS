@@ -77,17 +77,18 @@ export const rutaGastronomica = [
     historia: "Rico desayuno, nada como comenzar tu dia con una buena birria",
     img: "",
     coordenadas: "Centro Histórico",
-
     busquedaMapa: "Birrieria El Chivo de Oro,",
+    horarios: ["desayuno", "comida"], // Disponible para desayuno y comida
   },
   {
     id: 2,
     nombre: "Mariscos El Wero Liki",
     tipo: "Mariscos",
-    historia: "Reconocido restaurante de mariscos en la region  ",
+    historia: "Reconocido restaurante de mariscos en la region",
     img: "",
     coordenadas: "Mariscos El Wero Liki",
-    busquedaMapa: "Iglesia de Mochicahui, Sinaloa", // Usamos referencias cercanas
+    busquedaMapa: "Iglesia de Mochicahui, Sinaloa",
+    horarios: ["comida", "cena"], // Disponible para comida y cena
   },
   {
     id: 3,
@@ -98,5 +99,6 @@ export const rutaGastronomica = [
     img: "",
     coordenadas: "Reposteria y Café Libier",
     busquedaMapa: "Reposteria y Café Libier",
+    horarios: ["desayuno", "comida", "cena"], // Disponible para todos los horarios
   },
 ];
